@@ -1,0 +1,306 @@
+/* Base styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #FFFFFF; 
+    color: #434455;
+/* Default values */
+/* font-size: 16px;
+font-weight: 400;
+font-stile; normal; */
+}
+
+/* Reset stiles */
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+} 
+button {
+    cursor: pointer;
+}
+ul,ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+img {
+    display: block;
+}
+/* Common styles */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.team-title, 
+.portfolio-subject {
+    text-align: center;
+color: #2E2F42;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11; 
+letter-spacing: 0.02em;
+text-transform: capitalize;
+margin-bottom: 72px;
+margin-left: auto;
+margin-right: auto;
+}
+.skills-title,
+.team-name,
+.portfolio-title {
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2; 
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.skills-text,
+.team-text,
+.portfolio-text {
+    line-height: 1.5; 
+    letter-spacing: 0.02em;
+}
+
+/* Header section */
+.header {
+    border-bottom: 1px solid #e7e9fc;
+    
+}
+.header-container {
+    display: flex;
+    align-items: center;
+}
+.header-nav { 
+    display: flex; 
+    margin-right: 332px; 
+    align-items: center; 
+}
+.logo {
+    color: #4D5AE5;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17; 
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-right: 76px;
+    
+}
+.logo-dark {
+    color: #2E2F42;
+}
+.header-list {
+    display: flex;
+    gap: 40px;    
+}
+.header-item {
+
+}
+.header-link {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px; 
+    color: #2E2F42;
+font-weight: 500;
+line-height: 1.5; 
+letter-spacing: 0.02em;
+}
+.header-link:hover,
+.header-link:focus {
+    color: #404BBF;
+}
+/* Address */
+.contacts {
+    font-style: normal; 
+    
+}
+.contacts-list {
+    display: flex;
+    gap: 40px;
+}
+.contacts-item {
+    
+}
+.contacts-link {
+    color: currentColor;
+    line-height: 1.5; 
+    letter-spacing: 0.32px;  
+}
+.contacts-link:hover,
+.contacts-link:focus {
+    color: #404BBF; 
+}
+
+/* Hero section */
+.hero-container {
+    /* padding: 188px 0; */
+}
+.hero {
+    background: #2E2F42;
+    padding: 188px 0;
+}
+.subject {
+    color: #FFFFFF;
+text-align: center;
+font-size: 56px;
+font-weight: 700;
+line-height: 1.07; 
+letter-spacing: 0.02em;
+margin-bottom: 48px;
+max-width: 496px;
+margin-left: auto;
+margin-right: auto;
+}
+/* .btn {
+    display: flex;
+    justify-content: space-evenly;
+} */
+.button {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    padding: 16px 32px;
+    border-radius: 4px;
+    background-color: #4D5AE5;
+color: #FFFFFF;
+font-weight: 500;
+line-height: 1.5; 
+letter-spacing: 0.04em;
+}
+.button:hover,
+.button:focus {
+    background-color: #404BBF;
+}
+
+/* Skills section */
+.skills {
+}
+.skills-list {
+    display: flex;
+    gap: 24px;
+}
+.skills-item {
+    width: 264px;
+    max-width: 496px;   
+}
+.skills-title {
+    margin-bottom: 8px;
+
+}
+.skills-text {
+
+}
+
+/* Team section */
+.team {
+    background-color: #F4F4FD; 
+}
+.team-container {
+    
+}
+.team-title {
+   
+}
+.team-list {
+    display: flex;
+    gap: 24px; 
+}
+.team-item {
+    border-radius: 0px 0px 4px 4px;
+    
+    background-color: #FFFFFF;
+}
+.team-pic {
+    
+}
+.traling {
+    padding: 32px 0;
+    display: flex;
+flex-direction: column;
+}
+.team-name {
+    text-align: center; 
+    margin-bottom: 8px
+}
+.team-text {
+    text-align: center;
+}
+
+/* Portfolio section */
+.portfolio {
+}
+.portfolio-subject {
+    
+}
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+}
+.portfolio-item {
+}
+.portfolio-pic {
+
+}
+.grid {
+    display: flex;
+    padding: 32px 16px;
+border: 1px solid #e7e9fc;
+border-top: none;
+flex-direction: column;
+/* justify-content: center;
+align-items: flex-start; */
+align-self: stretch;
+}
+.portfolio-title {
+    margin-bottom: 8px;
+}
+.portfolio-text {
+}
+
+/*Footer section*/
+.footer {
+    background: #2E2F42;
+    padding: 100px 0;
+}   
+.footer-container {
+    /* padding: 100px 0 100px 15px; */
+}
+.logo {
+    display: inline-block;
+    margin-bottom: 16px;
+    
+}
+.logo-light {
+    color: #F4F4FD;
+    
+}
+.footer-text {
+    width: 264px;
+    /* padding-top: 16px; */
+    color: #F4F4FD;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
